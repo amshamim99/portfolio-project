@@ -123,3 +123,34 @@ button{
   background: #b3d4fc;
   text-shadow: none;
 }
+
+
+.header-transparent{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: transparent;
+}
+.logo{
+  position: relative;
+  font-size: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.navbar a{
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navbar a:hover{
+  color: #0ef;
+}
