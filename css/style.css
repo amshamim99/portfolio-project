@@ -7,8 +7,9 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #fff;
+  color: #ededed;
   font-size: 14px;
+  background: #081b29;
 }
 img{
   max-width: 100%;
@@ -133,7 +134,7 @@ button{
   display:flex;
   justify-content: space-between;
   padding: 20px 10%;
-  background: transparent;
+  background: #051129;
   z-index: 100;
 }
 .logo{
@@ -247,6 +248,55 @@ button{
 .btn-box a:hover{
 	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
 }
+.about-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+.about-img img {
+	max-width: 630px;
+  width: 100%;
+	height: auto;
+	border-radius: 50%;
+	border: 12px solid #0ef;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+}
+.about-text h2{
+  font-size: 60px;
+}
+.about-text h2 span{
+  color: #0ef;
+}
+.about-text h4{
+  font-size: 29px;
+  font-weight: 600px;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about-text p{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes slideRight{
