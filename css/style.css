@@ -245,6 +245,7 @@ button{
   box-shadow: 0 0 5px cyan, 0 0 25px cyan;
 
 }
+
 .btn-box a:hover{
 	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
 }
@@ -256,11 +257,11 @@ button{
 }
 .about-img img {
 	max-width: 630px;
-  width: 100%;
+	width: 100%;
 	height: auto;
 	border-radius: 50%;
-	border: 12px solid #0ef;
-	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+	border: 10px solid #f53be9f2;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
 }
 .about-text h2{
   font-size: 60px;
@@ -279,6 +280,70 @@ button{
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
+}
+/* service */
+.service-section {
+	padding: 90px 8%;
+}
+.title h1{
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+  
+}
+.title h1 span{
+  color: #0ef;
+}
+.service-list {
+	background: transparent;
+	border-right: 10px;
+	border-radius: 20px;
+	padding: 40px;
+	box-shadow: 1px 1px 20px #012290f7,1px 1px 40px #0053b8f7;
+  transition: .3s;
+}
+.service-list:hover{
+  transform: translateY(-10px);
+}
+.service-list i{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.service-list h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.service-list p{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.service-list a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.read{
+	display: inline-block;
+	font-size: 16px;
+	background: #0ef;
+	padding: 12px 28px;
+	border-radius: 40px;
+	color: #081b29;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan; 
+  transition: .3s;
+}
+.read:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
 }
 
 
